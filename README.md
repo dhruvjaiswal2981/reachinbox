@@ -63,9 +63,11 @@ Delete emails by pressing the "Delete" button or using the D key.
 Reply to emails by pressing the "Reply" button or using the R key, and compose a message in the reply editor.
 
 # API Endpoints
-GET Emails: GET https://hiring.reachinbox.xyz/api/v1/onebox/list
-DELETE Email: DELETE https://hiring.reachinbox.xyz/api/v1/onebox/messages/:threadId
-POST Reply: POST https://hiring.reachinbox.xyz/api/v1/onebox/reply/:threadId
+- GET Emails: GET https://hiring.reachinbox.xyz/api/v1/onebox/list
+
+- DELETE Email: DELETE https://hiring.reachinbox.xyz/api/v1/onebox/messages/:threadId
+
+- POST Reply: POST https://hiring.reachinbox.xyz/api/v1/onebox/reply/:threadId
 
 # Keyboard Shortcuts
 D - Delete selected email
